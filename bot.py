@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 import spotipy.oauth2 as oauth2
 from mutagen.easyid3 import EasyID3
 from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle, InputTextMessageContent
-downloa = deezloader.Login(
+downloa = deezloader.Deezer(
     setting.username, setting.password, setting.deezer_token)
 token = setting.token
 bot = telepot.Bot(token)
